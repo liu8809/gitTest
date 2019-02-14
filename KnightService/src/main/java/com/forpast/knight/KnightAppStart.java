@@ -19,7 +19,7 @@ public class KnightAppStart extends WebMvcConfigurerAdapter{
         registry.addMapping("/**")
                 .allowedHeaders("*")
                 .allowedMethods("*")
-                .allowedOrigins("*");
+                .allowedOrigins("*"); 
     }
 
     public static void main(String[] args){
